@@ -38,3 +38,22 @@ font-size: larger;
 border-radius: 10px;}
 
 .button-text{ text-align: center;}
+
+/* web-dev-styles */
+.web-dev{ margin: 36px 152px 36px 148px;
+    display: flex;}
+    .web-title{ margin: 80px 162px;
+        text-align: center;}
+    .dev-title{ font-size: 32px;
+    font-weight: 800;text-align: center;}
+    .title{ padding: 0px 47px 0px 47px;}
+
+    /* web subtext styles */
+    .web-subtext-1{margin: 48px;
+    display: flex;
+    justify-content: space-between;}
+    .coding-title{font-size: 24px;
+    font-weight: 700;
+text-align: left;}
+.coding-description{ text-align: left;}
+
