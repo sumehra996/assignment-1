@@ -98,3 +98,41 @@ font-size: 16px;}
 font-weight: 800;}
 .inspo-vid{ padding: 32px;
 text-align: center;}
+
+/* current target/section-3 styles*/
+.section-3{margin: 150px;}
+
+.current-target{
+padding: 0px 144px 48px 144px;
+text-align: center;}
+.target-title{ 
+font-size: 32px;
+font-weight: 800;}
+/* icon styles */
+.icons{ display: flex;
+justify-content: space-between;
+margin: 48px 150px;}
+/* background-1 */
+.background-1{ background-color:rgba(255, 76, 30, 0.05) ;
+margin: 0px 24px}
+
+.HTML{
+margin: 40px}
+/* background-2 */
+.background-2{background-color: rgba(0, 76, 232, 0.05);
+    margin: 0px 24px}
+
+.css{
+    margin: 40px
+}
+/* background-3 */
+.background-3{background-color: rgba(255, 223, 0, 0.05);
+    margin: 0px 24px}
+
+.javascript{
+    margin: 40px}
+
+ .learn{ text-decoration: underline;
+font-weight: 700;
+color: black;
+padding: 5px auto;}
