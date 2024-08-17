@@ -23,7 +23,8 @@
     margin: 0 auto;}
 
 .banner-title{ font-size: 48px;
-font-weight: 800;}
+font-weight: 800;
+color:rgba(13, 19, 33, 100%);}
 
 .banner-description{ font-size: 16px;
 padding:0px;}
@@ -40,20 +41,52 @@ border-radius: 10px;}
 .button-text{ text-align: center;}
 
 /* web-dev-styles */
-.web-dev{ margin: 36px 152px 36px 148px;
+.web-dev{ margin: 80px 97px;
     display: flex;}
-    .web-title{ margin: 80px 162px;
+    .web-title{ 
+        margin: 80px 162px;
         text-align: center;}
-    .dev-title{ font-size: 32px;
-    font-weight: 800;text-align: center;}
-    .title{ padding: 0px 47px 0px 47px;}
+    .dev-title{ font-size: 40px;
+    font-weight: 800;text-align: center;
+    color:rgba(13, 19, 33, 100%);}
+    .title{  
+        padding: 48px 47px;
+    color: #0D1321;
+text-align: center;}
+.web-dev-description{ font-size: 16px;
+ }
 
     /* web subtext styles */
-    .web-subtext-1{margin: 48px;
+    .web-subtext-1{
+       margin: 48px 48px;
     display: flex;
-    justify-content: space-between;}
-    .coding-title{font-size: 24px;
-    font-weight: 700;
+    justify-content: space-between;
 text-align: left;}
-.coding-description{ text-align: left;}
+    .coding-title{font-size: 26px;
+    font-weight: 700;
+text-align: left;
+color:rgba(13, 19, 33, 0.68);}
+.coding-description{ text-align: left;
+}
 
+.button{ 
+    margin: 32px auto;
+    padding: 12px 20px;
+background-color: white;
+font-size: 20px;
+font-weight: 600;
+color:rgba(13, 19, 33, 0.78)}
+
+/* web-subtext-2 styles */
+.web-subtext-2{ display: flex;
+text-align: left;}
+.coding-2{ margin: 48px ;
+    padding: 0 32px;}
+.coding-title-2{font-size: 26px;
+    font-weight: 700;
+text-align: left;
+color:rgba(13, 19, 33, 0.68);
+}
+
+.coding-description-2{
+font-size: 16px;}
