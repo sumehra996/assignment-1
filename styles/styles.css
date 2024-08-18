@@ -100,7 +100,9 @@ font-weight: 800;}
 text-align: center;}
 
 /* current target/section-3 styles*/
-.section-3{margin: 150px;}
+.section-3{
+    margin: 150px;
+}
 
 .current-target{
 padding: 0px 144px 48px 144px;
@@ -111,26 +113,34 @@ font-weight: 800;}
 /* icon styles */
 .icons{ display: flex;
 justify-content: space-between;
-margin: 48px 150px;}
+margin: 48px 150px;
+}
 /* background-1 */
-.background-1{ background-color:rgba(255, 76, 30, 0.05) ;
-margin: 0px 24px}
+.background-1{ 
+background-color:rgba(255, 76, 30, 0.05) ;
+margin: 0px 24px 0px 24px;
+}
 
 .HTML{
-margin: 40px}
+margin: 40px;
+}
 /* background-2 */
-.background-2{background-color: rgba(0, 76, 232, 0.05);
-    margin: 0px 24px}
+.background-2{
+    background-color: rgba(0, 76, 232, 0.05);
+    margin: 0px 24px 0px 24px;
+}
 
 .css{
-    margin: 40px
+    margin: 40px;
 }
 /* background-3 */
-.background-3{background-color: rgba(255, 223, 0, 0.05);
-    margin: 0px 24px}
+.background-3{
+    background-color: rgba(255, 223, 0, 0.05);
+    margin: 0px 24px 0px 24px;
+}
 
 .javascript{
-    margin: 40px}
+    margin: 40px;}
 
  .learn{ text-decoration: underline;
 font-weight: 700;
@@ -163,3 +173,12 @@ margin: 10px;
 border-radius: 5px;
 font-weight: 700;
 font-size: 20px;}
+
+.footer{display: flex;
+justify-content: space-between; 
+margin: 32px 150px;}
+.name{ font-size: 20px;
+font-weight: 600;}
+.facebook{ padding: 7.75px;}
+.github{padding: 7.75px;}
+.linkedin{ padding: 7.75px;}
